@@ -37,7 +37,7 @@ jobs:
             type=ref,event=tag
 
       - name: Build & Push API Image
-        uses: docker/build-push-action@v5
+        uses: docker/build-push-action@v7
         with:
           context: .
           file: ./Dockerfile.api
@@ -55,7 +55,7 @@ jobs:
             type=ref,event=tag
 
       - name: Build & Push Poller Image
-        uses: docker/build-push-action@v5
+        uses: docker/build-push-action@v7
         with:
           context: .
           file: ./Dockerfile.poller
