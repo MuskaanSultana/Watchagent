@@ -1,6 +1,6 @@
 # WatchAgent Weather Monitor
 
-![CI](https://github.com/adithyalee/WatchAgent-Weather-Monitor/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/MuskaanSultana/Watchagent/actions/workflows/ci.yml/badge.svg)
 
 A production-quality service that polls live weather conditions for Ottawa, Toronto, and Vancouver every hour, deduplicates readings, runs a multi-detector event detection engine calibrated to each city's climate, and exposes readings and events over HTTP.
 
@@ -82,7 +82,7 @@ graph TD
 ## Setup
 
 ```bash
-git clone https://github.com/adithyalee/WatchAgent-Weather-Monitor.git
+git clone https://github.com/MuskaanSultana/Watchagent.git
 cd WatchAgent-Weather-Monitor
 cp .env.example .env
 docker compose up --build
